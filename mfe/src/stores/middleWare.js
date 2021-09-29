@@ -1,12 +1,13 @@
 import fetch from "cross-fetch";
 
 const LOCAL_ENDPOINT = ":3000/query";
+const REMOTE_ENDPOINT = "/query";
 
 
 // map of gql qureies to ports
 const endPoints = {
-  Posts: LOCAL_ENDPOINT,
-  Questions: LOCAL_ENDPOINT,
+  Posts: REMOTE_ENDPOINT,
+  Questions: REMOTE_ENDPOINT,
 
 }
 
