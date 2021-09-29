@@ -1,0 +1,35 @@
+ type Query {
+      posts: [Post]
+      questions:[Question]
+ }
+ 
+ type Owner {
+        id: ID! 
+        reputation:Int
+        profileImage: String
+        displayName: String
+        link: String
+ }
+
+ type Question  {
+        id: ID! 
+        type: String 
+        owner:Owner
+        score:Int
+        tags: [String]
+        link: String
+        title: String
+        lastActivityDate:Int
+        creationDate:Int
+ } 
+
+  type Post  {
+        id: ID! 
+        owner:Owner
+        score:Int
+        type: String
+        link: String
+        lastEditDate:Int
+        lastActivityDate:Int
+        creationDate:Int
+ } 

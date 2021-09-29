@@ -1,0 +1,17 @@
+cog usr 
+nigel447@gmail.com
+DqVwJVWNe6Q6ekW#
+
+cognito-jwt
+App client front-end-auth
+
+userPoolWebClientId is the ID for the App client in App Intergration client settings
+
+  //     region: 'eu-west-1',
+  //     userPoolId: "eu-west-1_5qzG5EZOX",
+  //     userPoolWebClientId: "7amag1p265udb2iji5io8gq09d",
+  //     domain: "meetushere.auth.eu-west-1.amazoncognito.com",
+  //     scope: ["email", "profile", "openid"],
+  //     redirectSignIn: "http://localhost:3000/search",
+  //     redirectSignOut: "http://localhost:3000",
+  //     responseType: "token"
