@@ -3,7 +3,7 @@ import fetch from "cross-fetch";
 import {customFetch} from './middleWare'
 import {globalCache} from './apollo-cache'
 
-const baseUrl = `http://localhost`
+const baseUrl = `https://edu.nigelsavage.com` //`http://localhost`
 // const baseUrl = `http://localhost:8080/query`
 const httpLink = new HttpLink({ uri: baseUrl, fetch: customFetch });
 const publicHeaders = {
