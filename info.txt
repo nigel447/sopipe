@@ -3,3 +3,5 @@ mfe/src/stores/amplify-store.js for const isLocal = false
 mfe/src/stores/apollo-clent.js for baseUrl
 mfe/src/mvp/MainContainer.js for const isLocalDev = false
 mfe/src/stores/middleWare.js for XXX_ENDPOINT
+
+mfe/src/stores/amplify-store.js for XXX_ClientId  XXX_app_id
